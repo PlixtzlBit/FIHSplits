@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>FIHSplits</RootNamespace>
+    <AssemblyName>FIHSplits</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\libs\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\libs\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>..\libs\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>..\libs\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\libs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\libs\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\libs\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\libs\0Harmony.dll</HintPath>
+    </Reference>
+	<Reference Include="Assembly-CSharp">
+	  <HintPath>..\libs\Assembly-CSharp.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.PhysicsModule">
+	  <HintPath>..\libs\UnityEngine.PhysicsModule.dll</HintPath>
+	</Reference>
+	<Reference Include="FishNet.Runtime">
+	  <HintPath>..\libs\FishNet.Runtime.dll</HintPath>
+	</Reference>
+	<Reference Include="Unity.TextMeshPro">
+	  <HintPath>..\libs\Unity.TextMeshPro.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.UI">
+	  <HintPath>..\libs\UnityEngine.UI.dll</HintPath>
+	</Reference>
+	<Reference Include="SemanticVersioning">
+	  <HintPath>..\libs\SemanticVersioning.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.AssetBundleModule">
+	  <HintPath>..\libs\UnityEngine.AssetBundleModule.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.VideoModule">
+	  <HintPath>..\libs\UnityEngine.VideoModule.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.AnimationModule">
+	  <HintPath>..\libs\UnityEngine.AnimationModule.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.ImageConversionModule">
+	  <HintPath>..\libs\UnityEngine.ImageConversionModule.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.UIModule">
+	  <HintPath>..\libs\UnityEngine.UIModule.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+</Project>
